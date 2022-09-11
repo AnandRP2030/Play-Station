@@ -89,3 +89,41 @@ nav ul li a:hover{
     
 }
 
+.col-1 h4 {
+    margin:20px 0;
+    font-size:20px;
+
+}
+
+.col-1 button{
+    width:140px;
+    padding:12px 10px;
+    outline:none;
+    color:rgb(254, 254, 254);
+    font-weight:600;
+    background:linear-gradient(to right, #fb5283, rgb(34, 126, 172));
+    height:40px;
+    border-radius:6px;
+    border:none;
+    letter-spacing:1px;
+    transition:width .4s;
+    cursor:pointer;
+}
+
+.col-1 button img{
+    width:30px;
+    display:none;
+}
+
+.col-1 button:hover img{
+    display:inline-block;
+
+}
+
+.col-1 button:hover{
+    widtH:155px;
+  
+    /* display:flex; */
+    align-items:center;
+    justify-content:space-between;
+}
