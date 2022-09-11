@@ -245,17 +245,21 @@ nav ul li a:hover{
 
     .col-2{
         flex-basis:100%;
-        /* margin-top:120px;     */
         margin-bottom:30px;
+        position: relative;
+        right: 50px;
     }
 
     .col-2 .joy-stick{
         width:77%;
     }
     .color-box{
-        transform:translateX(50px);
+        transform:translateX(87px);
     }
 
+    .add-btn{
+        left:70px;
+    }
     
     .col-1{
         flex-basis:100%;
@@ -274,19 +278,20 @@ nav ul li a:hover{
         font-size:40px;
     }
 
+    
+
+
     /* objects move down */
     .move-down{
-        /* position:relative; */
+        
         top:130px;
         transition:.3s;
     } 
 
     .footer{
-
-    
-    display: flex;
-    position: relative;
-    top: 50px;
-    
-}
+        display: flex;
+        position: relative;
+        top: 50px;
+        right:45px;
+    }
 }
