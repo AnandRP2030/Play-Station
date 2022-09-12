@@ -291,7 +291,7 @@ nav ul li a:hover{
     .footer{
         display: flex;
         position: relative;
-        top: 50px;
+        top: 105px;
         right:45px;
     }
 }
